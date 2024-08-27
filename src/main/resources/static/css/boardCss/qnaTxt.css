@@ -1,0 +1,131 @@
+.container {
+    width: 1903px;
+    min-width: 500px;
+    text-align: center;
+    margin-top: 160px;
+}
+.content {
+    text-align: center;
+}
+.titleArea {
+    margin-bottom: 60px;
+    min-height: 30px;
+    text-align: center;
+}
+.titleArea > h2 {
+    color: #2e2e2e;
+    font-size: 26px;
+}
+table{
+    margin-left: 20px;
+    border-collapse: collapse;
+}
+td {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    font-size: 13px;
+}
+.txtLight {
+    color: gray
+}
+.txtLight > a {
+    color: gray;
+    text-decoration: none;
+}
+.txtLight > a:hover {
+    color: black;
+    text-decoration: none;
+}
+tr > td:nth-child(1) {
+    width: 50px;
+}
+tr > td:nth-child(2) {
+    width: 80px;
+    padding-right: 0;
+}
+tr > td:nth-child(2) > span {
+    display: inline-block;
+    width: 40px;
+    font-size: 10px;
+    padding: 1.3px 3px;
+    border: 1px solid #548235;
+    text-align: center;
+    vertical-align: top;
+    border-radius: 5px;
+}
+tr > td:nth-child(3) {
+    width: 1020px;
+    text-align: left;
+    font-size: 13px;
+    padding-left: 0;
+}
+tr > td:nth-child(3) > img {
+    width: 23px;
+    height: 23px;
+    margin-top: 2px;
+    margin-left: 3px;
+    vertical-align: top;
+}
+tr > td:nth-child(4) {
+    width: 200px;
+}
+tr > td:nth-child(5), td:nth-child(6){
+    width: 150px;
+    color: #999;
+}
+.txtBody {
+    text-align: left;
+    color: black;
+    padding-left: 100px;
+    border-top: none;
+}
+.back-btn {
+    width: 100px;
+    border: solid #ccc 1px;
+    font-size: 13px;
+    text-align: center;
+    color: #999;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin: 5px;
+}
+.btnDiv {
+    margin: 30px 20px 20px;
+    text-align: left;
+    color: #ccc;
+    text-decoration: none;
+    padding: 20px;
+}
+.btnDiv > a:hover {
+    transition: 0.9s;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid black;
+}
+#Answer {
+    display: inline-block;
+    width: 1750px;
+    padding: 30px;
+    margin-top: 20px;
+    background-color: #eee;
+    border-radius: 20px;
+}
+#Answer p {
+    font-size: 13px;
+    text-align: left;
+}
+#Answer p:nth-child(1) {
+    margin-bottom: 15px;
+}
+#Answer p span {
+    margin-left: 10px;
+    font-size: 13px;
+    color: #777;
+}
+#Answer p:nth-child(2) {
+    line-height: 25px;
+    margin-left: 10px;
+}
